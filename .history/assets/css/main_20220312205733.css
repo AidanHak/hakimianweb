@@ -96,11 +96,11 @@ input, select, textarea {
 	}
 
 	body {
-		background: #bbc9d8;
-		background: -moz-linear-gradient(45deg, #312f2f 15%, #bbc9d8 85%);
-		background: -webkit-linear-gradient(45deg, #312f2f 15%, #bbc9d8 85%);
-		background: linear-gradient(45deg, #312f2f 15%, #bbc9d8 85%);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#312f2f",endColorstr="#bbc9d8",GradientType=1);
+		background-color: #935d8c;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #312F2F 15%, #008ED6 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #312F2F 15%, #008ED6 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #312F2F 15%, #008ED6 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #312F2F 15%, #008ED6 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3069,13 +3069,11 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		color: #312F2F;
-		padding: 5em 5em 1em 5em;
+		padding: 5em 5em 1em 5em ;
 		text-align: center;
 	}
 
 		#header h1 {
-			color: #312F2F;
 			margin: 0 0 0.25em 0;
 		}
 
