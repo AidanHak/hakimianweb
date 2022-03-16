@@ -39,6 +39,16 @@
 
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-022DKPFSXJ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-022DKPFSXJ');
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -183,27 +193,27 @@
 		</div>
 
 		<script>
-		var chatbox = document.getElementById('fb-customer-chat');
-		chatbox.setAttribute("page_id", "102713925694278");
-		chatbox.setAttribute("attribution", "biz_inbox");
+			var chatbox = document.getElementById('fb-customer-chat');
+			chatbox.setAttribute("page_id", "102713925694278");
+			chatbox.setAttribute("attribution", "biz_inbox");
 		</script>
 
 		<!-- Your SDK code -->
 		<script>
-		window.fbAsyncInit = function() {
-			FB.init({
-			xfbml            : true,
-			version          : 'v13.0'
-			});
-		};
+			window.fbAsyncInit = function() {
+				FB.init({
+				xfbml            : true,
+				version          : 'v13.0'
+				});
+			};
 
-		(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
 		</script>
 	</body>
 </html>
